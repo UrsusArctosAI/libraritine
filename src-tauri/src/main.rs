@@ -11,7 +11,6 @@ mod scanner;
 
 use commands::AppState;
 use std::fs;
-use std::sync::Arc;
 use tauri::Manager;
 
 fn main() {
@@ -19,6 +18,7 @@ fn main() {
 
     tauri::Builder::default()
         .plugin(tauri_plugin_shell::init())
+        .plugin(tauri_plugin_dialog::init())
         .setup(|app| {
             // Determine portable data directory
             let data_dir = {
@@ -40,7 +40,7 @@ fn main() {
                 data_dir,
             };
 
-            app.manage(Arc::new(state));
+            app.manage(state);
             Ok(())
         })
         .invoke_handler(tauri::generate_handler![

@@ -21,11 +21,23 @@
   let showSidebar = $state(true);
 
   async function handleScan() {
-    // In a real app, this would open a directory picker
-    // For now, we'll use a prompt
-    const path = prompt('Enter the path to your Ren\'Py games directory:');
-    if (path) {
-      await scanGames(path);
+    try {
+      const { open } = await import('@tauri-apps/plugin-dialog');
+      const selected = await open({
+        directory: true,
+        multiple: false,
+        title: 'Select Ren\'Py Games Directory',
+      });
+      if (selected) {
+        await scanGames(selected);
+      }
+    } catch (err) {
+      // Fallback: prompt if dialog plugin not available
+      console.warn('Dialog plugin not available, using prompt fallback');
+      const path = window.prompt('Enter the path to your Ren\'Py games directory:');
+      if (path) {
+        await scanGames(path);
+      }
     }
   }
 </script>

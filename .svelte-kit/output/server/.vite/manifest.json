@@ -1,0 +1,192 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_root.js",
+      "_server.js",
+      "_internal.js"
+    ]
+  },
+  "_effects.js": {
+    "file": "chunks/effects.js",
+    "name": "effects",
+    "imports": [
+      "_false.js"
+    ]
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports"
+  },
+  "_false.js": {
+    "file": "chunks/false.js",
+    "name": "false"
+  },
+  "_games.js": {
+    "file": "chunks/games.js",
+    "name": "games",
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index",
+    "imports": [
+      "_effects.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_root.js",
+      "_server.js"
+    ]
+  },
+  "_root.js": {
+    "file": "chunks/root.js",
+    "name": "root",
+    "imports": [
+      "_effects.js",
+      "_uneval.js"
+    ]
+  },
+  "_server.js": {
+    "file": "chunks/server.js",
+    "name": "server"
+  },
+  "_state.svelte.js": {
+    "file": "chunks/state.svelte.js",
+    "name": "state.svelte",
+    "imports": [
+      "_effects.js",
+      "_exports.js",
+      "_root.js"
+    ]
+  },
+  "_uneval.js": {
+    "file": "chunks/uneval.js",
+    "name": "uneval"
+  },
+  "_utils.js": {
+    "file": "chunks/utils.js",
+    "name": "utils",
+    "imports": [
+      "_utils2.js",
+      "_uneval.js"
+    ]
+  },
+  "_utils2.js": {
+    "file": "chunks/utils2.js",
+    "name": "utils"
+  },
+  "node_modules/.pnpm/@sveltejs+kit@2.62.0_@sveltejs+vite-plugin-svelte@7.1.2_svelte@5.56.1_vite@6.4.3__svelt_d89e682b77ee93168a9147cb6559b55a/node_modules/@sveltejs/kit/src/runtime/app/server/remote/index.js": {
+    "file": "remote-entry.js",
+    "name": "remote-entry",
+    "src": "node_modules/.pnpm/@sveltejs+kit@2.62.0_@sveltejs+vite-plugin-svelte@7.1.2_svelte@5.56.1_vite@6.4.3__svelt_d89e682b77ee93168a9147cb6559b55a/node_modules/@sveltejs/kit/src/runtime/app/server/remote/index.js",
+    "isEntry": true,
+    "imports": [
+      "_utils.js",
+      "_false.js",
+      "_server.js"
+    ]
+  },
+  "node_modules/.pnpm/@sveltejs+kit@2.62.0_@sveltejs+vite-plugin-svelte@7.1.2_svelte@5.56.1_vite@6.4.3__svelt_d89e682b77ee93168a9147cb6559b55a/node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/.pnpm/@sveltejs+kit@2.62.0_@sveltejs+vite-plugin-svelte@7.1.2_svelte@5.56.1_vite@6.4.3__svelt_d89e682b77ee93168a9147cb6559b55a/node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_root.js",
+      "_state.svelte.js",
+      "_exports.js",
+      "_utils2.js",
+      "_index.js"
+    ]
+  },
+  "node_modules/.pnpm/@sveltejs+kit@2.62.0_@sveltejs+vite-plugin-svelte@7.1.2_svelte@5.56.1_vite@6.4.3__svelt_d89e682b77ee93168a9147cb6559b55a/node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/.pnpm/@sveltejs+kit@2.62.0_@sveltejs+vite-plugin-svelte@7.1.2_svelte@5.56.1_vite@6.4.3__svelt_d89e682b77ee93168a9147cb6559b55a/node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_utils.js",
+      "_false.js",
+      "_server.js",
+      "_uneval.js",
+      "_exports.js",
+      "_utils2.js",
+      "_index.js",
+      "_internal.js"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_games.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.Cvbre6dq.css"
+    ]
+  },
+  "src/routes/+layout.ts": {
+    "file": "entries/pages/_layout.ts.js",
+    "name": "entries/pages/_layout.ts",
+    "src": "src/routes/+layout.ts",
+    "isEntry": true
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_root.js",
+      "_games.js",
+      "_exports.js",
+      "_utils2.js",
+      "_state.svelte.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.BqexFz-H.css"
+    ]
+  },
+  "src/routes/game/[id]/+page.svelte": {
+    "file": "entries/pages/game/_id_/_page.svelte.js",
+    "name": "entries/pages/game/_id_/_page.svelte",
+    "src": "src/routes/game/[id]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_root.js",
+      "_exports.js",
+      "_utils2.js",
+      "_state.svelte.js",
+      "_games.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.BMTQclN1.css"
+    ]
+  },
+  "src/routes/settings/+page.svelte": {
+    "file": "entries/pages/settings/_page.svelte.js",
+    "name": "entries/pages/settings/_page.svelte",
+    "src": "src/routes/settings/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_root.js",
+      "_exports.js",
+      "_utils2.js",
+      "_state.svelte.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.H430esmT.css"
+    ]
+  }
+}

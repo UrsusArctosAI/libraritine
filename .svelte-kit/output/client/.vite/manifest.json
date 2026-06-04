@@ -1,0 +1,225 @@
+{
+  ".svelte-kit/generated/client-optimized/app.js": {
+    "file": "_app/immutable/entry/app.Cy3XfPGY.js",
+    "name": "entry/app",
+    "src": ".svelte-kit/generated/client-optimized/app.js",
+    "isEntry": true,
+    "imports": [
+      "_IECi_PHd.js",
+      "_Cmv9A_gy.js",
+      "_CMGP84Yy.js",
+      "_nzdqeAfq.js",
+      "_B8EE74do.js",
+      "_MFulnvuH.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/generated/client-optimized/nodes/0.js",
+      ".svelte-kit/generated/client-optimized/nodes/1.js",
+      ".svelte-kit/generated/client-optimized/nodes/2.js",
+      ".svelte-kit/generated/client-optimized/nodes/3.js",
+      ".svelte-kit/generated/client-optimized/nodes/4.js"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/0.js": {
+    "file": "_app/immutable/nodes/0.B6ZeEbkJ.js",
+    "name": "nodes/0",
+    "src": ".svelte-kit/generated/client-optimized/nodes/0.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_nzdqeAfq.js",
+      "_Cmv9A_gy.js",
+      "_D2kygyqQ.js",
+      "_9tWDAcaF.js"
+    ],
+    "css": [
+      "_app/immutable/assets/0.Cvbre6dq.css"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/1.js": {
+    "file": "_app/immutable/nodes/1.B2xcKj7B.js",
+    "name": "nodes/1",
+    "src": ".svelte-kit/generated/client-optimized/nodes/1.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_nzdqeAfq.js",
+      "_Cmv9A_gy.js",
+      "_CMGP84Yy.js",
+      "_3nGGa0gG.js"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/2.js": {
+    "file": "_app/immutable/nodes/2.Df95f_U4.js",
+    "name": "nodes/2",
+    "src": ".svelte-kit/generated/client-optimized/nodes/2.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_nzdqeAfq.js",
+      "_Cmv9A_gy.js",
+      "_B8EE74do.js",
+      "_CMGP84Yy.js",
+      "_F8YNYzJN.js",
+      "_DyTXGdnv.js",
+      "_BAw3d3Vc.js",
+      "_9tWDAcaF.js",
+      "_D2kygyqQ.js",
+      "_3nGGa0gG.js",
+      "_MFulnvuH.js"
+    ],
+    "css": [
+      "_app/immutable/assets/2.Bbw6inpZ.css"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/3.js": {
+    "file": "_app/immutable/nodes/3.Cg1_ua0Y.js",
+    "name": "nodes/3",
+    "src": ".svelte-kit/generated/client-optimized/nodes/3.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_nzdqeAfq.js",
+      "_Cmv9A_gy.js",
+      "_B8EE74do.js",
+      "_CMGP84Yy.js",
+      "_F8YNYzJN.js",
+      "_DyTXGdnv.js",
+      "_BAw3d3Vc.js",
+      "_3nGGa0gG.js",
+      "_9tWDAcaF.js"
+    ],
+    "css": [
+      "_app/immutable/assets/3.D1vHM_65.css"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/4.js": {
+    "file": "_app/immutable/nodes/4.TgF2qKiO.js",
+    "name": "nodes/4",
+    "src": ".svelte-kit/generated/client-optimized/nodes/4.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_nzdqeAfq.js",
+      "_Cmv9A_gy.js",
+      "_BAw3d3Vc.js",
+      "_DyTXGdnv.js",
+      "_3nGGa0gG.js"
+    ],
+    "css": [
+      "_app/immutable/assets/4.H430esmT.css"
+    ]
+  },
+  "_3nGGa0gG.js": {
+    "file": "_app/immutable/chunks/3nGGa0gG.js",
+    "name": "entry",
+    "imports": [
+      "_Cmv9A_gy.js"
+    ]
+  },
+  "_9tWDAcaF.js": {
+    "file": "_app/immutable/chunks/9tWDAcaF.js",
+    "name": "games",
+    "imports": [
+      "_IECi_PHd.js",
+      "_Cmv9A_gy.js"
+    ],
+    "dynamicImports": [
+      "node_modules/.pnpm/@tauri-apps+api@2.11.0/node_modules/@tauri-apps/api/core.js",
+      "node_modules/.pnpm/@tauri-apps+api@2.11.0/node_modules/@tauri-apps/api/core.js",
+      "node_modules/.pnpm/@tauri-apps+api@2.11.0/node_modules/@tauri-apps/api/core.js",
+      "node_modules/.pnpm/@tauri-apps+api@2.11.0/node_modules/@tauri-apps/api/core.js",
+      "node_modules/.pnpm/@tauri-apps+api@2.11.0/node_modules/@tauri-apps/api/core.js",
+      "node_modules/.pnpm/@tauri-apps+api@2.11.0/node_modules/@tauri-apps/api/core.js",
+      "node_modules/.pnpm/@tauri-apps+api@2.11.0/node_modules/@tauri-apps/api/core.js"
+    ]
+  },
+  "_B8EE74do.js": {
+    "file": "_app/immutable/chunks/B8EE74do.js",
+    "name": "if",
+    "imports": [
+      "_Cmv9A_gy.js",
+      "_IECi_PHd.js"
+    ]
+  },
+  "_BAw3d3Vc.js": {
+    "file": "_app/immutable/chunks/BAw3d3Vc.js",
+    "name": "events",
+    "imports": [
+      "_Cmv9A_gy.js"
+    ]
+  },
+  "_CMGP84Yy.js": {
+    "file": "_app/immutable/chunks/CMGP84Yy.js",
+    "name": "render",
+    "imports": [
+      "_Cmv9A_gy.js",
+      "_BAw3d3Vc.js",
+      "_nzdqeAfq.js"
+    ]
+  },
+  "_Cmv9A_gy.js": {
+    "file": "_app/immutable/chunks/Cmv9A_gy.js",
+    "name": "index-client"
+  },
+  "_D2kygyqQ.js": {
+    "file": "_app/immutable/chunks/D2kygyqQ.js",
+    "name": "snippet",
+    "imports": [
+      "_Cmv9A_gy.js",
+      "_IECi_PHd.js"
+    ]
+  },
+  "_DyTXGdnv.js": {
+    "file": "_app/immutable/chunks/DyTXGdnv.js",
+    "name": "input",
+    "imports": [
+      "_Cmv9A_gy.js"
+    ]
+  },
+  "_F8YNYzJN.js": {
+    "file": "_app/immutable/chunks/F8YNYzJN.js",
+    "name": "style",
+    "imports": [
+      "_Cmv9A_gy.js",
+      "_DyTXGdnv.js"
+    ]
+  },
+  "_IECi_PHd.js": {
+    "file": "_app/immutable/chunks/IECi_PHd.js",
+    "name": "branches",
+    "imports": [
+      "_Cmv9A_gy.js"
+    ]
+  },
+  "_MFulnvuH.js": {
+    "file": "_app/immutable/chunks/MFulnvuH.js",
+    "name": "props",
+    "imports": [
+      "_Cmv9A_gy.js",
+      "_B8EE74do.js"
+    ]
+  },
+  "_nzdqeAfq.js": {
+    "file": "_app/immutable/chunks/nzdqeAfq.js",
+    "name": "disclose-version",
+    "imports": [
+      "_Cmv9A_gy.js"
+    ]
+  },
+  "node_modules/.pnpm/@sveltejs+kit@2.62.0_@sveltejs+vite-plugin-svelte@7.1.2_svelte@5.56.1_vite@6.4.3__svelt_d89e682b77ee93168a9147cb6559b55a/node_modules/@sveltejs/kit/src/runtime/client/entry.js": {
+    "file": "_app/immutable/entry/start.CR8WDF97.js",
+    "name": "entry/start",
+    "src": "node_modules/.pnpm/@sveltejs+kit@2.62.0_@sveltejs+vite-plugin-svelte@7.1.2_svelte@5.56.1_vite@6.4.3__svelt_d89e682b77ee93168a9147cb6559b55a/node_modules/@sveltejs/kit/src/runtime/client/entry.js",
+    "isEntry": true,
+    "imports": [
+      "_3nGGa0gG.js"
+    ]
+  },
+  "node_modules/.pnpm/@tauri-apps+api@2.11.0/node_modules/@tauri-apps/api/core.js": {
+    "file": "_app/immutable/chunks/DhEqZVGG.js",
+    "name": "core",
+    "src": "node_modules/.pnpm/@tauri-apps+api@2.11.0/node_modules/@tauri-apps/api/core.js",
+    "isDynamicEntry": true
+  }
+}
